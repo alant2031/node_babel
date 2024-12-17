@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --quiet ./node_modules/.bin/babel-node ./src/index.js",
-    "spam": "node --watch --no-warnings src/spam.js"
+    "dev": "nodemon ./node_modules/.bin/babel-node ./src/index.js",
+    "spam": "node --watch src/spam.js"
   },
   "keywords": [],
   "author": "",
